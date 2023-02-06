@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <p>Email: kylehelsmore@gmail.com</p>
+    <p>Mobile: 07957 763898</p>
+    <hr>
+    <form action="mailto:kylehelsmore@gmail.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="yourName"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="yourDateOfBirth"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="yourEmail"></td>
+            </tr>
+            <tr>
+                <td>CV:</td>
+                <td><input type="file" name="yourCV"></td>
+            </tr>
+            <tr>
+                <td><label>Your Message:</label></td>
+                <td><textarea name="yourMessage" cols="30" rows="10"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit">
+    </form>
+</body>
+</html>
